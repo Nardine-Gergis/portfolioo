@@ -1,0 +1,208 @@
+
+/* start global rules*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Righteous;
+    height:1000px;
+}
+
+
+/*end global rules*/
+/* start media*/
+@media(max-width:767px) {
+    /*Mobile and tablet rules*/
+
+    .visible-xs {
+
+        display: block !important
+    }
+
+    .hidden-xs {
+
+        display: none !important
+    }
+    
+    .res-para{
+        
+        text-align: center;
+        font-size:20px !important
+        
+    }
+}
+
+@media (min-width:768px)and (max-width:991px) {
+    /*small screen rules*/
+
+    .container {
+
+        width: 750px;
+    }
+
+    .visible-sm {
+
+        display: block !important
+    }
+
+    .hidden-sm {
+        display: block !important
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    /*medium screen rules*/
+
+    .container {
+        width: 970px;
+    }
+
+    .visible-md {
+
+        display: block !important
+    }
+
+    .hidden-md {
+        display: none !important
+    }
+    
+
+
+}
+
+
+@media (min-width:1200px) {
+
+    /*large screen rules*/
+    .container {
+
+        width: 1170px;
+    }
+    .visible-lg {
+
+        display: block !important
+    }
+
+    .hidden-lg {
+        display: none !important
+    }
+    
+  
+
+}
+
+/*end media*/
+
+/***********************************************/
+
+
+/* Start Top-Nav*/
+.navbar .navbar-nav .nav-item .nav-link{
+    
+    color: black;
+    font-weight: bold;
+    font-family:inherit;
+}
+.navbar  .navbar-nav .nav-item .nav-link:hover{
+    color:darkred;
+}
+/* End top-Nav*/
+/*****************************************/
+/*start image section*/
+.img-thumbnail{
+    max-width: 200px;
+    height: auto;}
+
+    /*end image section*/
+
+    /************************************/
+
+/*start footer */
+footer{
+    background: #141517;
+    padding: 50px 0px 10px;
+    width: 100%;
+    color: #908E8E;
+     border: 1px solid #292424;
+     
+    
+}
+/*end footer */
+
+/********************************************/
+
+/* start my works*/
+
+
+.our-works .image {
+    
+  
+    width:25%;
+    height:230px;
+}
+
+@media (min-width:1200px){
+    
+    
+   .our-works .image {
+    
+  
+    width:25%;
+    
+}
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    
+    
+    .our-works .image {
+    
+  
+    width:33.33333%;
+    
+}
+    
+}
+
+@media (min-width:768px)and (max-width:991px) {
+    
+    
+    .our-works .image {
+    
+  
+    width:50%;
+    
+}
+  
+    
+}
+
+@media (min-width:500px)and (max-width:767px) {
+    
+    
+    .our-works .image {
+    
+  
+    width:100%;
+    
+}
+    
+}
+
+
+
+
+
+
+
+
+/*end my works*/
+/******************************************/

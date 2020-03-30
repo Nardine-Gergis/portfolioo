@@ -1,0 +1,19 @@
+/* Start Top-Nav*/
+.navbar .navbar-nav .nav-item .nav-link{
+    
+    color: black;
+    font-weight: bold;
+    font-family:inherit;
+}
+.navbar  .navbar-nav .nav-item .nav-link:hover{
+    color:darkred;
+}
+/* End top-Nav*/
+footer{
+    background: #141517;
+    padding: 50px 0px 10px;
+    width: 100%;
+    color: #908E8E;
+     border: 1px solid #292424;
+    
+}
